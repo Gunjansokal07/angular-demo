@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    word-break: break-word;
+    background-color: #f1f3fa;
+}
+.header-title{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+li{
+    list-style: none;
+}
+.highlighted-text{
+    color : #9198b1; 
+    /* color : #9fa8c5;  */
+    cursor: pointer;
+}
+textarea{
+    height: 200px !important;
+}
+
+.divider {
+    border-top: 1px solid #dacdcd;
+    /* border-top: 1px solid #e7e7e7; */
+    padding-top: 20px;
+}
+.event-card-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    transition: .3s;
+    background-color : #fff;
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}

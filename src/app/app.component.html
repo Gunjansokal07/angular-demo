@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <th>Roll Number</th>
+		<th>Name</th>
+    </tr>
+    <tr *ngFor='user in userData'>
+        <td>{{user['id']}}</td>
+        <td>{{user['name']}}</td>
+        <span *ngIf='user[id]%2 == 0; else #odd'>
+             <td>Even</td>
+         </span>
+        <td #odd>Odd</td>
+    </tr>
+</table>
